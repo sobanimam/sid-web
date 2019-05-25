@@ -1,0 +1,108 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.panel {
+    border: 1px solid #05a3d2;
+}
+
+.panel-header {
+    background-color: #05a3d2;
+    padding: 10px;
+    border-bottom: 2px solid #057394;
+    color: #fff;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+.panel-footer {
+    background-color: #05a3d2;
+    padding: 5px;
+    border-top: 1px solid #057394;
+}
+
+/*Form Control*/
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        width: 100px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+        margin-right: 5px;
+    }
+
+
+    .form-group .form-control {
+        padding: 5px;
+        width: 200px;
+        border-radius: 2px;
+        border: 1px solid #ccc;
+        outline: none;
+        transition: 0.5s box-shadow;
+    }
+
+        .form-group .form-control:focus {
+            box-shadow: 0 0 10px #dedede;
+        }
+
+/*Form Vertical*/
+
+.form-vertical .form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    width: auto;
+}
+
+.form-vertical .form-group .form-control {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*Form Inliine*/
+.form-inline .form-group, .form-inline label, .form-inline .form-control {
+    display: inline-block;
+}
+
+.form-inline label {
+    width: auto;
+}
+
+.form-inline .form-group {
+    margin-right: 10px;
+}
+/*BTN*/
+.btn {
+    padding: 10px 20%;
+    border-radius: 5px;
+    border: 1px solid #0488af;
+    background-color: #23c6f7;
+    font-size: 19px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color:#fff;
+    font-weight:bold;
+    font-family:cursive;
+}
+.btn:hover {
+    background-color: #73defd;
+}
+
+.btn-lg {
+    padding:15px 20px;
+    font-size:18px;
+}
+.btn-sm {
+    padding:6px 12px;
+    font:12px;
+}
+.btn-green {
+    background-color:#128129;
+}

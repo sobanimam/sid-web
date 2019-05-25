@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Account.master.cs" Inherits="Account" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="fontAwesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/change.css" rel="stylesheet" />
+    <link href="css/Responsive.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+    <body class="a-body">
+    <form id="form2" runat="server">
+        <div class="container">
+            <div class="col-sm-4">
+                
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="account">
+                    <div class="logo">
+                        <a href="Index.aspx"><img src="img/sobanlogo.jpg" /></a>
+                    </div>
+                    <div class="form-data">
+                        <asp:ContentPlaceHolder ID="ContentPage" runat="server">
+
+                        </asp:ContentPlaceHolder>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
